@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
 
 :root {
-  --primarycolor: teal;
+  --primarycolor: #C8A2C8;
   --secondarycolor: black;
   --thirdcolor: purple;
 }
@@ -46,7 +46,9 @@ h1, h2 {
 img {
   width: 100%;
 }
-
+#bookbtn {
+  margin: 0 auto;
+}
 /* Navbar */
 .navbar {
   background-color: var(--primarycolor);
