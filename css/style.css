@@ -83,7 +83,7 @@ img {
   font-size: 1.5rem;
 }
 
-.navbar a:hover, .showcase-footer .footer-nav a:hover {
+.navbar a:hover, .showcase-footer .footer-nav a:hover, .footer-text a:hover{
   border-bottom: 2px #fff solid;
 }
 
@@ -221,7 +221,6 @@ img {
 .showcase-skills-section .project {
   margin-top: 20px;
   margin-bottom: 80px;
-  border: 2px dashed var(--primarycolor);
   padding: 50px;
 }
 .showcase-skills-section h3 {
@@ -229,9 +228,7 @@ img {
   font-weight: bold;
   font-size: 2rem;
 }
-.showcase-skills-section .container{
-  border: 2px dashed var(--thirdcolor);
-}
+
 .showcase-skills-section .project .project-text ul {
   list-style: circle inside;
 }
@@ -252,7 +249,7 @@ img {
   align-items: center;
   min-height: 100px;
   background-color: var(--primarycolor);
-  border: 1px solid var(--primarycolor);
+  border: 1px solid var(--secondarycolor);
   border-radius: 10px;
   max-width: auto;
   font-size: 2rem;
